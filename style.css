@@ -1,0 +1,86 @@
+* {
+    font-family: "Google Sans", sans-serif;
+}
+
+body{
+    font-family: "Google Sans", sans-serif;
+    display : flex;
+    height : 100vh;
+    align-items: center;
+    justify-content: center;
+}
+#outline{
+    height : 60vh;
+    width : 70vh;
+    border : 1px solid black;
+    border-radius: 18px;
+    padding : 10px;
+    margin  : 10px;
+    
+}
+form{
+    /* background-color: black; */
+    
+}
+h1,h3{
+    text-align: center;
+    margin : 10px;
+    
+}
+header{
+    padding : 20px;
+}
+#username{
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding : 20px;
+
+    
+}
+
+.un1{
+    border : 1px solid orange ;
+    height : 4vh;
+    width : 30%;
+    text-align: center;
+
+}
+#email,#phone,#message,#submit{
+    display : flex;
+    align-items: center ;
+    justify-content: center;
+    padding : 20px;
+
+}
+.un2{
+    border : 1px solid orange ;
+    height : 4vh;
+    width : 73.5%;
+    text-align: center;
+    justify-content: center;
+
+}
+.un3{
+    border : 1px solid orange ;
+    height : 5vh;
+    width : 73.5%;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 5vh;
+    resize: none;
+}
+
+.un3::placeholder{
+    line-height: 5vh;
+}
+    
+button{
+    border : 3px solid orange ;
+    height : 4vh;
+    width : 50%;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+}
