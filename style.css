@@ -8,18 +8,24 @@ body{
     height : 100vh;
     align-items: center;
     justify-content: center;
+    background-color: #dee3ff;
 }
 #outline{
     height : 60vh;
     width : 70vh;
-    border : 1px solid black;
-    border-radius: 18px;
-    padding : 10px;
+   
+    /* border-radius: 18px; */
+    /* padding : 10px; */
     margin  : 10px;
     
 }
 form{
-    /* background-color: black; */
+    background-color: white;
+    height : 100%; width : 100%; 
+    border-radius: 18px;
+     /* border : 1px solid #dee3ff; */
+     box-shadow: 0 0 20px rgb(168, 168, 248);
+
     
 }
 h1,h3{
@@ -40,7 +46,7 @@ header{
 }
 
 .un1{
-    border : 1px solid orange ;
+    border : 1px solid rgb(168, 168, 248);
     height : 4vh;
     width : 30%;
     text-align: center;
@@ -54,7 +60,7 @@ header{
 
 }
 .un2{
-    border : 1px solid orange ;
+    border : 1px solid rgb(168, 168, 248) ;
     height : 4vh;
     width : 73.5%;
     text-align: center;
@@ -62,7 +68,7 @@ header{
 
 }
 .un3{
-    border : 1px solid orange ;
+    border : 1px solid rgb(168, 168, 248) ;
     height : 5vh;
     width : 73.5%;
     text-align: center;
@@ -77,9 +83,10 @@ header{
 }
     
 button{
-    border : 3px solid orange ;
+    border : 3px solid rgb(168, 168, 248) ;
     height : 4vh;
     width : 50%;
+    border-radius : 10px;
     text-align: center;
     justify-content: center;
     background-color: white;
