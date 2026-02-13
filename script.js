@@ -12,15 +12,19 @@ document.getElementById("form").addEventListener("submit", function(e){
         return;
     }
     else{
-        emailjs.sendForm("service_q6w4olk", "template_46k2o8o", this).then(function(){
-        alert("Message Sent Successfully!")
-        document.getElementById("form").reset();
-        },
-        function(error){
+            Promise.all([
+            emailjs.sendForm("service_q6w4olk", "template_46k2o8o", this),
+            emailjs.sendForm("service_q6w4olk", "template_bllpufs", this)
+        ])
+        .then(function() {
+            alert("Message Sent Successfully!");
+            document.getElementById("form").reset();
+        })
+        .catch(function(error) {
             alert("Failed to send message!");
             document.getElementById("form").reset();
             console.log(error);
-        })
+        });
     }
     
     
